@@ -17,9 +17,9 @@ Current Metrics:
 * Free Throw Attempts
 * Free Throws Made
 * Free Throw Percentage
-* Three Point Attempts
-* Three Pointers Made
-* Three Point Percentage
+* 3 Point Attempts
+* 3 Pointers Made
+* 3 Point Percentage
 * Points
 * Offensive Rebounds
 * Defensive Rebounds
@@ -32,13 +32,10 @@ Current Metrics:
 * Minutes Per Game
 * Field Goal Attempts Per Game
 * Field Goals Made Per Game
-* Field Goal Percentage Per Game
 * Free Throw Attempts Per Game
 * Free Throws Made Per Game
-* Free Throw Percentage Per Game
-* Three Point Attempts Per Game
-* Three Pointers Made Per Game
-* Three Point Percentage Per Game
+* 3 Point Attempts Per Game
+* 3 Pointers Made Per Game
 * Points Per Game
 * Offensive Rebounds Per Game
 * Defensive Rebounds Per Game
