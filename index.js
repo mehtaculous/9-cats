@@ -555,7 +555,7 @@ function yahooSearch(intent, session, response) {
         blocks,
         turnovers,
         personal_fouls,
-        minutes_played,
+        minutes_per_game,
         field_goal_attempts_per_game,
         field_goals_made_per_game,
         free_throw_attempts_per_game,
