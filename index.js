@@ -156,6 +156,10 @@ NineCats.prototype.intentHandlers = {
                     for (var key in data["stats"]["stats"]) {
                         if (data["stats"]["stats"][key]["stat_id"] === metric_id) {
                             metric_value = data["stats"]["stats"][key]["value"];
+                            if (metricName === "field goal percentage" || metricName === "free throw percentage" || metricName === "3 point percentage") {
+                                metric_value = (metric_value * 100).toFixed(1);
+                                console.log("Metric Value TEST: " + metric_value);
+                            }
                         }
                     }
 
@@ -471,7 +475,7 @@ function getMetricRequest(intent, session, response) {
     console.log("getGamesPlayedRequest: " + games_played);
     console.log("getMetricValueRequest: " + metric_value);
 
-    if (metric === "games played" && metric_value === games_played) {
+    if (metric === "games played" && metric_value) {
         console.log("During the " + season + " season, " + player + " played " + games_played + " games.");
         speechOutput = {
             speech: "During the " + season + " season, " + player + " played " + games_played + " games.",
@@ -482,9 +486,9 @@ function getMetricRequest(intent, session, response) {
         response.tellWithCard(speechOutput, cardTitle, cardContent);
 
     } else if ((metric === "field goal percentage" || metric === "free throw percentage" || metric === "3 point percentage") && metric_value) {
-        console.log("During the " + season + " season, " + player + " had a " + metric + "of " + metric_value + "%");
+        console.log("During the " + season + " season, " + player + " had a " + metric + " of " + metric_value + "%");
         speechOutput = {
-            speech: "During the " + season + " season, " + player + " had a " + metric + "of " + metric_value + "%",
+            speech: "During the " + season + " season, " + player + " had a " + metric + " of " + metric_value + "%",
             type: AlexaSkill.speechOutputType.PLAIN_TEXT
         };
         cardTitle = metric + " for " + player + " during the " + season + " season";
