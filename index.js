@@ -674,9 +674,9 @@ function yahooSearch(intent, session, response) {
                     metric_value = ppr_points_per_game;
                 } else if (metricName === "free throws made per game") {
                     metric_value = free_throws_made_per_game;
-                } else if (metricName === "three point attempts per game") {
+                } else if (metricName === "3 point attempts per game") {
                     metric_value = three_point_attempts_per_game;
-                } else if (metricName === "three pointers made per game") {
+                } else if (metricName === "3 pointers made per game") {
                     metric_value = three_pointers_made_per_game;
                 } else if (metricName === "points per game") {
                     metric_value = points_per_game;
@@ -713,7 +713,7 @@ function yahooSearch(intent, session, response) {
                 trackEvent(
                     'Intent',
                     'OneShotMetricIntent',
-                    strLogData,
+                    'Yahoo Search',
                     '100',
                     function(err) {
                         if (err) {
