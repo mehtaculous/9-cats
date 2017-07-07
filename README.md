@@ -3,13 +3,15 @@
 A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API.
 
 <br>
-**Three Simple Rules**:
+Three Simple Rules:
+
 1. Name of current NBA player who has played at least one game
 2. Valid basketball statistic (See list below)
 3. Year of NBA season ranging from 2001 – Present
 
 <br>
-**Basketball Statistics**: 
+Basketball Statistics:
+ 
 * Assists
 * Assists Per Game
 * Blocks
