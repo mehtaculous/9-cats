@@ -283,6 +283,7 @@ module.exports = {
   "john jenkins": 5057,
   "john lucas": 4052,
   "john wall": 4716,
+  "john walls": 4716,
   "jon leuer": 4922,
   "jonas jerebko": 4644,
   "jonas valanciunas": 4886,

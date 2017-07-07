@@ -1,47 +1,48 @@
-## [9 Cats](http://alexa.amazon.com/)
+## [9 Cats](http://alexa.amazon.com)
 
 A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API.
 
 <br>
-Please make sure to include in your request:
-* The name of a current player who has played at least one game in the NBA
-* The name of a valid metric which correlates to that player's position
-* The year pertaining to an NBA season ranging from 2001 – Present
+**Three Simple Rules**:
+1. Name of current NBA player who has played at least one game
+2. Valid basketball statistic (See list below)
+3. Year of NBA season ranging from 2001 – Present
 
-Current Metrics: 
-* Games Played
-* Minutes Played
-* Field Goal Attempts
-* Field Goals Made
-* Field Goal Percentage
-* Free Throw Attempts
-* Free Throws Made
-* Free Throw Percentage
-* 3 Point Attempts
-* 3 Pointers Made
-* 3 Point Percentage
-* Points
-* Offensive Rebounds
-* Defensive Rebounds
-* Total Rebounds
+<br>
+**Basketball Statistics**: 
 * Assists
-* Steals
-* Blocks
-* Turnovers
-* Personal Fouls
-* Minutes Per Game
-* Field Goal Attempts Per Game
-* Field Goals Made Per Game
-* Free Throw Attempts Per Game
-* Free Throws Made Per Game
-* 3 Point Attempts Per Game
-* 3 Pointers Made Per Game
-* Points Per Game
-* Offensive Rebounds Per Game
-* Defensive Rebounds Per Game
-* Total Rebounds Per Game
 * Assists Per Game
-* Steals Per Game
+* Blocks
 * Blocks Per Game
-* Turnovers Per Game
+* Defensive Rebounds
+* Defensive Rebounds Per Game
+* Field Goal Attempts
+* Field Goal Attempts Per Game
+* Field Goal Percentage
+* Field Goals Made
+* Field Goals Made Per Game
 * Fouls Per Game
+* Free Throw Attempts
+* Free Throw Attempts Per Game
+* Free Throw Percentage
+* Free Throws Made
+* Free Throws Made Per Game
+* Games Played
+* Minutes Per Game
+* Minutes Played
+* Offensive Rebounds
+* Offensive Rebounds Per Game
+* Personal Fouls
+* Points
+* Points Per Game
+* Steals
+* Steals Per Game
+* Three Point Attempts
+* Three Point Attempts Per Game
+* Three Point Percentage
+* Three Pointers Made
+* Three Pointers Made Per Game
+* Total Rebounds
+* Total Rebounds Per Game
+* Turnovers
+* Turnovers Per Game

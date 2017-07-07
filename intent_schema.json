@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Player",
+          "type": "LIST_OF_PLAYERS"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "Season",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ],
+      "intent": "OneShotMetricIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Player",
+          "type": "LIST_OF_PLAYERS"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "Season",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ],
+      "intent": "MissingSlotIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
