@@ -6,7 +6,7 @@ var API = require('./api_keys');
 
 var Keys = require('./data_keys');
 
-var APP_ID = 'amzn1.ask.skill.8a6bd435-3ad5-44af-b448-60395647d02f';
+var APP_ID = 'amzn1.ask.skill.3b51f77a-7dec-41b7-9b07-e8c4a0333917';
 
 var YahooFantasy = require('yahoo-fantasy');
 
