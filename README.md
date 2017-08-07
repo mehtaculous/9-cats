@@ -1,13 +1,13 @@
-## [9 Cats](http://alexa.amazon.com)
+## [9 Cats](http://alexa.amazon.com/spa/index.html#skills/dp/B073XD8FQK/?ref=skill_dsk_skb_sr_8)
 
 A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API.
 
 <br>
-Three Simple Rules:
+How To Use:
 
-1. Name of current NBA player who has played at least one game
+1. Name of a current NBA player who has played in at least one game
 2. Valid basketball statistic (See list below)
-3. Year of NBA season ranging from 2001 – Present
+3. Year of an NBA season ranging from 2001 – Present
 
 <br>
 Basketball Statistics:
