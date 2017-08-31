@@ -3,6 +3,13 @@
 A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API.
 
 <br>
+Example Phrases:
+
+1. Alexa, ask 9 Cats for Stephen Curry's three pointers made in 2015
+2. Alexa, ask 9 Cats how many steals per game did Kawhi Leonard have during 2016
+3. Alexa, ask 9 Cats what was Kyrie Irving's field goal percentage for 2017
+
+<br>
 How To Use:
 
 1. Name of a current NBA player who has played in at least one game
@@ -10,10 +17,20 @@ How To Use:
 3. Year of an NBA season ranging from 2001 – Present
 
 <br>
+Quick Example Phrases:
+
+* Alexa, ask 9 Cats Lebron James, points, 2010
+* Alexa, ask 9 Cats John Wall, assists per game, 2011
+* Alexa, ask 9 Cats Russell Westbrook, total rebounds, 2012
+* Alexa, ask 9 Cats Anthony Davis, blocks per game, twenty thirteen
+* Alexa, ask 9 Cats James Harden, free throw attempts, twenty fourteen
+
+<br>
 Basketball Statistics:
  
 * Assists
 * Assists Per Game
+* Average Stats
 * Blocks
 * Blocks Per Game
 * Defensive Rebounds
@@ -37,6 +54,7 @@ Basketball Statistics:
 * Personal Fouls
 * Points
 * Points Per Game
+* Season Stats
 * Steals
 * Steals Per Game
 * Three Point Attempts
