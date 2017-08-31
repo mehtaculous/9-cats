@@ -1,6 +1,6 @@
 ## [9 Cats](http://alexa.amazon.com/spa/index.html#skills/dp/B073XD8FQK/?ref=skill_dsk_skb_sr_8)
 
-A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API.
+A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API
 
 <br>
 Example Phrases:
@@ -21,7 +21,7 @@ Quick Example Phrases:
 
 * Alexa, ask 9 Cats Lebron James, season stats, 2010
 * Alexa, ask 9 Cats John Wall, assists per game, 2011
-* Alexa, ask 9 Cats Russell Westbrook, total rebounds, 2012
+* Alexa, ask 9 Cats Russell Westbrook, total rebounds, twenty twelve
 * Alexa, ask 9 Cats Anthony Davis, blocks per game, twenty thirteen
 * Alexa, ask 9 Cats James Harden, free throw attempts, twenty fourteen
 

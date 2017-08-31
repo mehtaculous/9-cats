@@ -152,16 +152,20 @@ NineCats.prototype.intentHandlers = {
                 if (err) {
                     console.log(err);
                 }
-            var speechText = "<speak>Please provide the name of a current player who has played at least one season in the NBA, a valid metric correlating to that player's position, and a valid year pertaining to the NBA season ranging from two thousand and one through two thousand and sixteen. <break time=\"0.618s\"/> Now, what can I help you with today?</speak>"
-            var repromptText = "<speak>You can say things like <break time=\"0.618s\"/> How many 3 pointers made did Stephen Curry have in two thousand and fifteen? <break time=\"0.618s\"/> Now, how can I help you?</speak>";
+            var speechText = "<speak>Please provide the name of a current NBA player who has played in at least one game, a valid basketball statistic correlating to that player's position, and the year of an NBA season ranging from two thousand and one through two thousand and seventeen. You can ask something like <break time=\"0.618s\"/> How many steals per game did Kawhi Leonard have in two thousand and fourteen?</speak>"
+
+            var repromptText = "<speak>Here is the entire list of available basketball statistics: Assists, Assists Per Game, Average Stats, Blocks, Blocks Per Game, Defensive Rebounds, Defensive Rebounds Per Game, Field Goal Attempts, Field Goal Attempts Per Game, Field Goal Percentage, Field Goals Made, Field Goals Made Per Game, Fouls Per Game, Free Throw Attempts, Free Throw Attempts Per Game, Free Throw Percentage, Free Throws Made, Free Throws Made Per Game, Games Played, Minutes Per Game, Minutes Played, Offensive Rebounds, Offensive Rebounds Per Game, Personal Fouls, Points, Points Per Game, Season Stats, Steals, Steals Per Game, Three Point Attempts, Three Point Attempts Per Game, Three Point Percentage, Three Pointers Made, Three Pointers Made Per Game, Total Rebounds, Total Rebounds Per Game, Turnovers, Turnovers Per Game. <break time=\"0.618s\"/> Now, what can I help you with today?</speak>";
+
             var speechOutput = {
                 speech: speechText,
                 type: AlexaSkill.speechOutputType.SSML
             };
+
             var repromptOutput = {
                 speech: repromptText,
                 type: AlexaSkill.speechOutputType.SSML
             };
+
             response.ask(speechOutput, repromptOutput);
         });
     },
@@ -198,8 +202,8 @@ NineCats.prototype.intentHandlers = {
 };
 
 function handleMissingPlayerRequest(intent, session, response) {
-    var speechOutput = "Please provide the name of a current player who has played at least one game in the NBA.",
-        repromptText = "You can say something like, Kevin Durant";
+    var speechOutput = "Please provide the name of a current NBA player who has played in at least one game.",
+        repromptText = "You can say something like, 'Kyrie Irving'.";
     response.ask(speechOutput, repromptText);
 }
 
@@ -212,8 +216,8 @@ function handleMissingMetricRequest(intent, session, response) {
         player = playerName.concat("\'s");
     }
 
-    var speechOutput = "Please provide a valid metric which correlates to " + player + " position.",
-        repromptText = "You can say something like, field goal percentage";
+    var speechOutput = "Please provide a valid basketball statistic which correlates to " + player + " position.",
+        repromptText = "You can say something like, 'points per game'.";
     response.ask(speechOutput, repromptText);
 }
 
@@ -226,8 +230,8 @@ function handleMissingSeasonRequest(intent, session, response) {
         player = playerName;
     }
 
-    var speechOutput = "Please provide the year of an NBA season, ranging from two thousand and one through two thousand and sixteen, in which " + player + " has played at least one game.",
-        repromptText = "You can say something like, two thousand and sixteen.";
+    var speechOutput = "Please provide the year of an NBA season, ranging from two thousand and one through two thousand and seventeen, in which " + player + " has played in at least one game.",
+        repromptText = "You can say something like, 'twenty sixteen'.";
     response.ask(speechOutput, repromptText);
 }
 
