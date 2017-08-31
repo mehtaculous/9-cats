@@ -5,9 +5,9 @@ A voice-enabled skill for Amazon's Alexa platform which provides past and presen
 <br>
 Example Phrases:
 
-1. Alexa, ask 9 Cats for Stephen Curry's three pointers made in 2015
-2. Alexa, ask 9 Cats how many steals per game did Kawhi Leonard have during 2016
-3. Alexa, ask 9 Cats what was Kyrie Irving's field goal percentage for 2017
+1. Alexa, ask 9 Cats how many three pointers made did Stephen Curry have in 2015
+2. Alexa, ask 9 Cats what were Kawhi Leonard's average stats for 2016
+3. Alexa, ask 9 Cats for Kevin Durant's field goal percentage during 2017
 
 <br>
 How To Use:
@@ -19,7 +19,7 @@ How To Use:
 <br>
 Quick Example Phrases:
 
-* Alexa, ask 9 Cats Lebron James, points, 2010
+* Alexa, ask 9 Cats Lebron James, season stats, 2010
 * Alexa, ask 9 Cats John Wall, assists per game, 2011
 * Alexa, ask 9 Cats Russell Westbrook, total rebounds, 2012
 * Alexa, ask 9 Cats Anthony Davis, blocks per game, twenty thirteen
