@@ -1,4 +1,4 @@
-## [9 Cats](http://alexa.amazon.com/spa/index.html#skills/dp/B073XD8FQK/?ref=skill_dsk_skb_sr_8)
+## [9 Cats](https://www.amazon.com/mehtaculous-9-Cats/dp/B073XD8FQK/ref=sr_1_1?ie=UTF8&qid=1526586447&sr=8-1&keywords=alexa+skill+9+cats)
 
 A voice-enabled skill for Amazon's Alexa platform which provides past and present statistics along with advanced metrics derived from NBA players using the Yahoo Fantasy Sports API
 
